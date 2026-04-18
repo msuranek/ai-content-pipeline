@@ -2,6 +2,16 @@
 
 Ukázka workflow, které z jedné expert knowledge session vytváří více obsahových výstupů.
 
+## English Summary
+
+`ai-content-pipeline` shows how one expert knowledge session can be transformed into multiple
+content outputs such as an article draft, a LinkedIn post, and a newsletter concept. The workflow
+is intentionally human-in-the-loop and optimized for preserving expertise rather than mass
+generation.
+
+This makes the repo useful for consultants, creator-operators, developer advocates, and AI
+evangelists who want to scale content without losing authenticity.
+
 ## Proč repo vzniká
 
 AI Evangelist nebo odborný konzultant často ví mnohem víc, než stíhá publikovat. Tento repozitář
