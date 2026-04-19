@@ -1,40 +1,49 @@
 # ai-content-pipeline
 
-Ukázka workflow, které z jedné expert knowledge session vytváří více obsahových výstupů.
+A human-in-the-loop workflow for turning one expert session into multiple content outputs.
 
-## English Summary
+## Status
 
-`ai-content-pipeline` shows how one expert knowledge session can be transformed into multiple
-content outputs such as an article draft, a LinkedIn post, and a newsletter concept. The workflow
-is intentionally human-in-the-loop and optimized for preserving expertise rather than mass
-generation.
+Conceptual workflow / docs-first repository.
 
-This makes the repo useful for consultants, creator-operators, developer advocates, and AI
-evangelists who want to scale content without losing authenticity.
+This repository documents a content workflow that expands one expert knowledge source into multiple
+formats while preserving human judgment, editorial control, and subject-matter nuance.
 
-## Proč repo vzniká
+## Overview
 
-AI Evangelist nebo odborný konzultant často ví mnohem víc, než stíhá publikovat. Tento repozitář
-ukazuje, jak z jedné zdrojové myšlenky vytěžit:
+Many experts have more usable insight than publishing capacity. This repository outlines how one
+source session can be transformed into:
 
-- draft odborného článku
-- kratší LinkedIn post
-- osnovu newsletteru
+- an article draft
+- a LinkedIn post draft
+- a newsletter concept
 
-## Co uvnitř najdeš
+## Repository Contents
 
 - `workflows/session-to-article.md`
 - `workflows/session-to-linkedin.md`
 - `workflows/session-to-newsletter.md`
 
-## Princip
+## Design Principles
 
-Nejde o bezhlavé generování obsahu. Jde o workflow, které:
+The workflow is intentionally designed to:
 
-- drží jednu hlavní myšlenku
-- respektuje cílový formát
-- ponechává lidskou editaci na konci
+- preserve one core idea across multiple formats
+- adapt to the requirements of each destination format
+- keep a human editor in control of the final output
 
-## Brandový přínos
+## Non-Goals
 
-Repo dobře ukazuje, že AI může posílit expertní hlas bez ztráty autenticity.
+- This repository is not a content publishing platform.
+- It does not optimize for fully automated content generation.
+- It does not replace expert review, editorial refinement, or fact-checking.
+
+## References
+
+- [OpenAI Guides](https://platform.openai.com/docs/guides)
+- [Google Search Quality Evaluator Guidelines](https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t)
+
+## License
+
+No license has been added yet. Add a project license before reusing this repository in other
+contexts.
